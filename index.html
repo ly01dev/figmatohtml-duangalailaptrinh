@@ -3,15 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fone popin va font Sen-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- reset css -->
     <link rel="stylesheet" href="acsset/css/reset.css" />
     <!-- style -->
     <link rel="stylesheet" href="acsset/css/style.css" />
 
-    <title>Dự án Figma to HTML</title>
+    <title>Dự án Landinpage Galailaptrinh</title>
   </head>
   <body>
-    <h2>Dự Án figma to HTML</h2>
-    <h3>demo</h3>
+    <!-- tạo header -->
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="body">
+          <!-- logo -->
+          <img src="./acsset/imge/Logo.svg" alt="lesson" class="logo" />
+
+          <!-- navigation -->
+          <!-- cấu trúc : nav.nav>ul>li*4>a{home} -->
+          <nav class="nav">
+            <ul>
+              <li class="active">
+                <a href="#!">home</a>
+              </li>
+              <li>
+                <a href="#!">Courses</a>
+              </li>
+              <li>
+                <a href="#!">Pricing</a>
+              </li>
+              <li>
+                <a href="#!">Reviews</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- buttom -->
+          <!-- cấu trúc: .action>a.btn{sign up} -->
+          <div class="action">
+            <a href="#!" class="btn btn-sign-up">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
